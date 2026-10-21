@@ -117,7 +117,7 @@ function verificar() {
 
   if (ok1 && ok2) {
     document.getElementById("resultado").innerText = "⚡ AMBOS ACERTARAM! ACELERANDO... ⚡";
-    tempoRodada = Math.max(1000, tempoRodada * 0.8);
+    tempoRodada = Math.max(1500, tempoRodada * 0.8);
     setTimeout(novaRodada, 1800);
   } else if (ok1 && !ok2) {
     document.getElementById("resultado").innerText = "🏆 JOGADOR 1 VENCEU! 🎉";
